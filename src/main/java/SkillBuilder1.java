@@ -34,13 +34,13 @@ public class SkillBuilder1 {
 
 
 
-        System.out.println("Wall area: %.0f square feet\n" + wallArea);
+        System.out.printf("Wall area: %.0f square feet\n", wallArea);
 
-        System.out.println("Paint needed: %.2f gallons\n" + gallonsPaintNeeded);
+        System.out.printf("Paint needed: %.2f gallons\n", gallonsPaintNeeded);
 
         double paint = gallonsPaintNeeded + gallonsPerCan;
         cansNeeded = (int)paint;
-        System.out.println("Cans needed: "+cansNeeded+ "cans");
+        System.out.println("Cans needed: "+cansNeeded+ "can(s)");
 
 
 
